@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import { React, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Research from './components/About';
+// import TicTacToe from './components/TicTacToe';
+
+export default function App() {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      <Routes>
+        <Route path="/" element={<Home isDarkMode={isDarkMode} />} />
+        <Route path="Research" element={<Research isDarkMode={isDarkMode} />} />
+      </Routes>
+      <Footer isDarkMode={isDarkMode}/>
+    </>
   );
 }
-
-export default App;
