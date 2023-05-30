@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SankalpaKC/static/css/main.bd7e25d0.css",
-    "main.js": "/SankalpaKC/static/js/main.195d138b.js",
-    "static/js/787.a45570f1.chunk.js": "/SankalpaKC/static/js/787.a45570f1.chunk.js",
-    "static/media/profile.png": "/SankalpaKC/static/media/profile.222a1389a8cba74f4c6e.png",
-    "static/media/research.pdf": "/SankalpaKC/static/media/research.c35c9cafc6d7823e02c8.pdf",
-    "index.html": "/SankalpaKC/index.html",
-    "main.bd7e25d0.css.map": "/SankalpaKC/static/css/main.bd7e25d0.css.map",
-    "main.195d138b.js.map": "/SankalpaKC/static/js/main.195d138b.js.map",
-    "787.a45570f1.chunk.js.map": "/SankalpaKC/static/js/787.a45570f1.chunk.js.map"
+    "main.css": "/static/css/main.bd7e25d0.css",
+    "main.js": "/static/js/main.fc598e72.js",
+    "static/js/787.a45570f1.chunk.js": "/static/js/787.a45570f1.chunk.js",
+    "static/media/profile.png": "/static/media/profile.222a1389a8cba74f4c6e.png",
+    "static/media/research.pdf": "/static/media/research.c35c9cafc6d7823e02c8.pdf",
+    "index.html": "/index.html",
+    "main.bd7e25d0.css.map": "/static/css/main.bd7e25d0.css.map",
+    "main.fc598e72.js.map": "/static/js/main.fc598e72.js.map",
+    "787.a45570f1.chunk.js.map": "/static/js/787.a45570f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd7e25d0.css",
-    "static/js/main.195d138b.js"
+    "static/js/main.fc598e72.js"
   ]
 }
