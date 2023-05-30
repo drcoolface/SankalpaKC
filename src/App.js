@@ -20,7 +20,7 @@ export default function App() {
       <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <Routes>
         <Route path="/" element={<Home isDarkMode={isDarkMode} />} />
-        <Route path="Research" element={<Research isDarkMode={isDarkMode} />} />
+        <Route path="/Research" element={<Research isDarkMode={isDarkMode} />} />
       </Routes>
       <Footer isDarkMode={isDarkMode}/>
     </>
