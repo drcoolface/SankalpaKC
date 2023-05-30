@@ -1,5 +1,5 @@
 {
-  "homepage": "https://drcoolface.github.io/SankalpaKC",
+  "homepage": "https://drcoolface.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
