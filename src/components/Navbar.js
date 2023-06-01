@@ -11,7 +11,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) =>
       <div className="flex space-x-4">
         
       <NavLink to='/' className={`${
-            isDarkMode ? 'text-white' : 'text-gray-800'
+            isDarkMode ? 'text-white' :  'text-gray-800 '
           } hover:font-bold`}>  Home </NavLink>
 
       <NavLink to='/Research' className={`${

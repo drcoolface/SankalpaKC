@@ -14,7 +14,7 @@ const Home = ({ isDarkMode }) => {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 -mt-10">
               <img className="w-full h-auto rounded" src={profileImage} alt="profile" />
             </div>
-            <div className="w-full md:w-1/2 lg:w-2/3 px-4 text-right animate-slide-in">
+            <div className="w-full  md:w-1/2 lg:w-2/3 px-4 text-right animate-slide-in">
               <p className={`text-5xl mb-[10rem] py-20 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                 A computer science student, transcriptionist, aspiring web developer and AI researcher.
               </p>
