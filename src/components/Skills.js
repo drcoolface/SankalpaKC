@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  css,
   tailwindcss,
-  html,
   react,
   typescript,
   nodejs,
