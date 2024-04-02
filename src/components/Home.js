@@ -8,7 +8,7 @@ import Timeline from "./Timeline";
 
 const Home = () => {
   return (
-    <div className="flex flex-col mb-2 gap-4">
+    <div className="flex flex-col justify-center mb-2 gap-4">
       <div className={`pt-10  texture bg-white text-black min-h-screen `}>
         <div className="container mx-auto px-4 my-auto">
           <div className="flex flex-wrap">
