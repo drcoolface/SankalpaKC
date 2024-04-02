@@ -7,9 +7,9 @@ const TimelineWrapper = styled.div`
   align-items: center;
 
   .timeline {
-    width: 800px;
+    width: 700px;
     color: #fff;
-    padding: 30px 20px;
+    paddingright: 20px;
 
     ul {
       list-style-type: none;
@@ -95,7 +95,7 @@ const events = [
 
 const Timeline = () => {
   return (
-    <>
+    <div className="my-10">
       <p className="text-center text-5xl font-semibold">
         {" "}
         Professional Experience
@@ -115,7 +115,7 @@ const Timeline = () => {
           </ul>
         </div>
       </TimelineWrapper>
-    </>
+    </div>
   );
 };
 
