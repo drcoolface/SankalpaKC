@@ -95,8 +95,8 @@ const events = [
 
 const Timeline = () => {
   return (
-    <div className="my-10">
-      <p className="text-center text-5xl font-semibold">
+    <div className="my-10 justify-center">
+      <p className="text-center  text-5xl font-semibold">
         {" "}
         Professional Experience
       </p>

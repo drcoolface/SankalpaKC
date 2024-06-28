@@ -8,10 +8,12 @@ import Timeline from "./Timeline";
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-center mb-2 gap-4">
-      <div className={`pt-10  texture bg-white text-black min-h-screen `}>
+    <div className="flex flex-col justify-center mb-2 gap-4 w-full mx-auto p-2">
+      <div
+        className={`pt-10  texture bg-white text-black min-h-[92vh] container mx-auto  `}
+      >
         <div className="container mx-auto px-4 my-auto">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap sm:justify-center">
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 my-auto ">
               <img
                 className="w-full h-auto rounded"
@@ -32,7 +34,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="flex flex-col justify-center">
         <Timeline />
         <ProfessionalExperiences />
       </div>

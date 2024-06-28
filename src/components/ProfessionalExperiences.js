@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfessionalExperiences = () => {
   return (
-    <div className="max-w-6xl mx-auto p-6 shadow-lg rounded-lg ">
+    <div className="max-w-6xl mx-auto p-6 shadow-lg rounded-lg w-[60%] justify-center ">
       <h3 className="text-4xl  text-center font-semibold mb-4 text-gray-700">
         Work Projects
       </h3>
