@@ -28,13 +28,24 @@ const Home = () => {
               </p>
               <h3 className={`text-3xl font-bold  my-4 `}>
                 Currently working as a{" "}
-                <strong className="text-cyan-600">Frontend Engineer. </strong>
+                <strong className="text-cyan-600 animate-pulse">
+                  Frontend Engineer.{" "}
+                </strong>
               </h3>
             </div>
           </div>
         </div>
+        <div>
+          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
+          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
+          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
+          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
+          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
+          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
+        </div>
       </div>
-      <div className="flex flex-col justify-center">
+
+      <div className="flex flex-col md:justify-center">
         <Timeline />
         <ProfessionalExperiences />
       </div>

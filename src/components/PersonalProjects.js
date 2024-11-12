@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const PersonalProjects = () => {
   return (
-    <div className="max-w-6xl mx-auto my-5 p-6 shadow-lg rounded-lg w-[60%] flex flex-col justify-center ">
+    <div className="md:max-w-6xl mx-auto my-5 p-6 shadow-lg rounded-lg w-[60%] flex flex-col justify-center  bg-blue-200">
       <h2 className="text-4xl  mx-auto font-semibold text-center mb-8 text-gray-800">
         Personal and Academic Projects
       </h2>

@@ -2,8 +2,8 @@ import React from "react";
 
 const ProfessionalExperiences = () => {
   return (
-    <div className="max-w-6xl mx-auto p-6 shadow-lg rounded-lg w-[60%] justify-center ">
-      <h3 className="text-4xl  text-center font-semibold mb-4 text-gray-700">
+    <div className="max-w-6xl mx-auto p-6 shadow-lg rounded-lg md:w-[60%] justify-center bg-slate-400 ">
+      <h3 className="text-4xl  text-center font-semibold mb-4 text-zinc-50 ">
         Work Projects
       </h3>
       <div className="space-y-4">
