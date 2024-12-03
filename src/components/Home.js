@@ -35,14 +35,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
-          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
-          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
-          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
-          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
-          <div className="w-20 h-20 bg-cyan-300 rounded-full"></div>
-        </div>
+       
       </div>
 
       <div className="flex flex-col md:justify-center">
